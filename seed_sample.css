@@ -2,10 +2,9 @@
   box-sizing: border-box;
 }
 
-html, body, header, div, section, ul, li, h1, h2, h3, h4, h5, h6, p{
+html, body, header, div, section, ul, li, h1, h2, h3, h4, h5, h6, p, img{
   margin: 0;
   padding: 0;
-  word-break: keep-all;
 }
 body{
   font-family: sans-serif;
@@ -23,7 +22,35 @@ a{
   line-height: 1em;
 }
 
-.top .wrapper{
+.btn1-container{
+  border-radius: 20px;
+}
+
+/* ボタン１の制御 */
+.btn1{
+  display: inline-block;
+  width: 120px;
+  height: 50px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 0px rgba(58, 58, 58, 0.5);
+  position: relative;
+}
+
+.btn1-frame{
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 120px;
+  height: 50px;
+  border: 2px solid rgba(58, 58, 58, .9);
+  border-radius: 5px;
+}
+
+/* ここからヘッダー */
+.header .wrapper{
   margin: 0 auto;
   width: 100%;
   height: 80px;
@@ -45,10 +72,10 @@ header{
 }
 
 .header-list{
-  flex-grow: 2;
+  flex-grow: 1;
   display: flex;
+  flex-direction: row-reverse;
   width: 550px;
-  padding-left: 20%;
 }
 
 .header-list > li{
@@ -61,6 +88,7 @@ header{
   padding: 10px 40px;
 }
 
+/* ここからPC右側固定部分SNS案内 */
 .sns-information{
   width: 60px;
   height: 300px;
@@ -76,4 +104,101 @@ header{
   display: block;
   width: 40px;
   margin: 40px auto;
+}
+
+/* ここからトップ */
+.top-wrapper{
+  width: 100%;
+  height: 800px;
+  margin-top: 80px;
+}
+
+.top-container{
+  width: 100%;
+  padding: 30px 60px;
+  display: flex;
+}
+
+/* トップ左側 */
+.top-left{
+  margin-right: 30px;
+}
+
+.top-logo-image{
+  width: 100%;
+  height: auto;
+}
+
+.top-btns{
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.subscribe-button{
+  background-color: rgba(76, 166, 222, 1);
+}
+
+.plan-button{
+  background-color: rgba(76, 194, 222, 0.9);
+}
+
+.about-seed-button{
+  background-color: rgba(76, 166, 222, 1);
+}
+
+/* トップ右側 */
+.top-right-container{
+  background-color: rgba(76, 194, 222, 0.9);
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+  min-height: 500px;
+}
+
+.top-right-p-container{
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.top-right-large{
+  font-size: 1.6em;
+}
+.top-right-large1{
+  box-sizing: content-box;
+  border-bottom: 8px solid white;
+}
+.top-right-large2{
+  font-size: 1.7em;
+}
+
+.top-right-p1{
+  margin-top: 40px;
+}
+
+.top-right-p2-img{
+  width: 45px;
+}
+.top-right-p2{
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.top-right-p3-img{
+  width: 45px;
+}
+.top-right-p3{
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.top-right-p4{
+  
+}
+
+.top-right-p5{
+  margin-top: 50px;
+  font-size: 100%;
 }
