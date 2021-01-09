@@ -1,43 +1,57 @@
-*{
+* {
   box-sizing: border-box;
 }
 
-html, body, header, div, section, ul, li, h1, h2, h3, h4, h5, h6, p, img{
+html,
+body,
+header,
+div,
+section,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img {
   margin: 0;
   padding: 0;
 }
-body{
+body {
   font-family: sans-serif;
   font-size: 1.2vw;
 }
-li{
+li {
   list-style: none;
   text-align: center;
 }
-a{
+a {
   text-decoration: none;
   color: white;
 }
 
-.emphasis-color-blue{
+.emphasis-color-blue {
   color: rgb(68, 147, 196);
   font-size: 3vw;
 }
 
-.emphasis-color-yellow{
+.emphasis-color-yellow {
   color: rgb(231, 202, 94);
 }
 
-.br-point-1{
+.br-point-1 {
   line-height: 1em;
 }
 
-.btn1-container{
+.btn1-container {
   border-radius: 20px;
 }
 
 /* ボタン１の制御 */
-.btn1{
+.btn1 {
   display: inline-block;
   width: 120px;
   height: 50px;
@@ -49,17 +63,17 @@ a{
   position: relative;
 }
 
-.btn1-frame{
+.btn1-frame {
   position: absolute;
   top: -5px;
   left: -5px;
   width: 120px;
   height: 50px;
-  border: 2px solid rgba(58, 58, 58, .9);
+  border: 2px solid rgba(58, 58, 58, 0.9);
   border-radius: 5px;
 }
 
-.btn2{
+.btn2 {
   display: block;
   width: 200px;
   height: 50px;
@@ -74,21 +88,18 @@ a{
   margin: 10px auto;
 }
 
-.marker-yellow{
+.marker-yellow {
   background-image: linear-gradient(transparent 50%, rgba(231, 202, 94) 50%);
 }
 
-
-
-
 /* ここからヘッダー */
-.header .wrapper{
+.header .wrapper {
   margin: 0 auto;
   width: 100%;
   height: 80px;
 }
 
-header{
+header {
   width: 100%;
   height: 80px;
   color: white;
@@ -99,31 +110,31 @@ header{
   top: 0;
   z-index: 10;
 }
-.app-name{
+.app-name {
   flex-grow: 1;
   margin: auto 10px;
   text-align: center;
 }
 
-.header-list{
+.header-list {
   flex-grow: 1;
   display: flex;
   flex-direction: row-reverse;
   width: 550px;
 }
 
-.header-list > li{
+.header-list > li {
   margin: auto 10px;
 }
 
-.top-login{
+.top-login {
   border: 1px solid white;
   border-radius: 30px;
   padding: 10px 40px;
 }
 
 /* ここからPC右側固定部分SNS案内 */
-.sns-information{
+.sns-information {
   width: 60px;
   height: 300px;
   position: fixed;
@@ -135,35 +146,35 @@ header{
   border-bottom-left-radius: 30px;
 }
 
-.sns-icon{
+.sns-icon {
   display: block;
   width: 40px;
   margin: 40px auto;
 }
 
 /* ここからトップ */
-.top-wrapper{
+.top-wrapper {
   width: 100%;
   margin-top: 80px;
 }
 
-.top-container{
+.top-container {
   width: 100%;
   padding: 30px 70px 30px 60px;
   display: flex;
 }
 
 /* トップ左側 */
-.top-left{
+.top-left {
   margin-right: 20px;
 }
 
-.top-logo-image{
+.top-logo-image {
   width: 100%;
   height: auto;
 }
 
-.top-btns{
+.top-btns {
   width: 100%;
   margin: 0 auto;
   padding-top: 20px;
@@ -171,20 +182,20 @@ header{
   justify-content: space-around;
 }
 
-.subscribe-button{
+.subscribe-button {
   background-color: rgba(76, 166, 222, 1);
 }
 
-.plan-button{
+.plan-button {
   background-color: rgba(76, 194, 222, 0.9);
 }
 
-.about-seed-button{
+.about-seed-button {
   background-color: rgba(76, 166, 222, 1);
 }
 
 /* トップ右側 */
-.top-right-container{
+.top-right-container {
   background-color: rgba(76, 194, 222, 0.9);
   padding: 20px;
   border-radius: 20px;
@@ -192,65 +203,64 @@ header{
   min-height: 500px;
 }
 
-.top-right-p-container{
+.top-right-p-container {
   margin: 0 auto;
   text-align: center;
   margin-bottom: 20px;
 }
-.top-right-large{
+.top-right-large {
   font-size: 3.3vw;
   background-image: linear-gradient(transparent 50%, rgba(231, 202, 94) 50%);
 }
-.top-right-large1{
+.top-right-large1 {
   font-size: 2.5vw;
   box-sizing: content-box;
   border-bottom: 8px solid white;
 }
-.top-right-large2{
+.top-right-large2 {
   font-size: 3.3vw;
   background-image: linear-gradient(transparent 50%, rgba(231, 202, 94) 50%);
 }
 
-.top-right-p1{
+.top-right-p1 {
   margin-top: 40px;
 }
 
-.top-right-p2-img{
+.top-right-p2-img {
   width: 45px;
 }
-.top-right-p2{
+.top-right-p2 {
   display: inline-block;
   vertical-align: bottom;
 }
 
-.top-right-p3-img{
+.top-right-p3-img {
   width: 45px;
 }
-.top-right-p3{
+.top-right-p3 {
   display: inline-block;
   vertical-align: bottom;
 }
 
-.top-right-p4{
-  
+.top-right-p4 {
 }
 
-.top-right-p5{
+.top-right-p5 {
   margin-top: 30px;
   font-size: 1.2vw;
 }
 
 /* ここから特長部分 */
-.feature-wrapper{
+.feature-wrapper {
   width: 100%;
   text-align: center;
 }
 
-.feature-container{
+.feature-container {
   margin: 0 auto;
 }
 
-.feature-name{
+.feature-name {
   margin: 0 auto;
   font-size: 2.5vw;
   color: rgb(112, 112, 112);
@@ -260,19 +270,19 @@ header{
   padding: 10px 0;
 }
 
-.feature-call{
+.feature-call {
   margin-top: 10px;
   color: rgb(112, 112, 112);
   font-size: 1.5vw;
 }
 
-.pc-container{
+.pc-container {
   width: 100%;
   margin: 0 auto;
   padding: 0 70px;
 }
 
-.pc-frame1{
+.pc-frame1 {
   width: 100%;
   height: 620px;
   border: 10px solid rgb(76, 166, 222);
@@ -281,7 +291,7 @@ header{
   padding: 10px;
 }
 
-.pc-frame2{
+.pc-frame2 {
   width: 100%;
   height: 580px;
   border: 2px solid rgb(76, 166, 222);
@@ -292,35 +302,35 @@ header{
   justify-content: space-around;
 }
 
-.feature-frame{
-  width: calc((100% - 10px)/2);
-  height: calc((100% - 8px)/2);
+.feature-frame {
+  width: calc((100% - 10px) / 2);
+  height: calc((100% - 8px) / 2);
   border: 5px solid rgb(76, 166, 222);
   display: flex;
 }
-.feature-left-frame{
+.feature-left-frame {
   width: 45%;
   position: relative;
 }
-.feature-right-frame{
+.feature-right-frame {
   width: 60%;
   background-color: rgb(76, 166, 222);
   position: relative;
 }
-.feature-reason{
+.feature-reason {
   margin-top: 30px;
   color: rgb(68, 147, 196);
 }
-.feature-number{
+.feature-number {
   color: rgb(68, 147, 196);
   font-size: 3vw;
 }
-.feature-title{
+.feature-title {
   margin-top: 30px;
   color: white;
 }
 
-.btn3{
+.btn3 {
   display: block;
   width: 150px;
   height: 40px;
@@ -335,29 +345,29 @@ header{
   margin: 0 auto;
   position: absolute;
   bottom: 20px;
-  left: calc((100% - 150px)/2);
+  left: calc((100% - 150px) / 2);
 }
 
-.feature-img{
+.feature-img {
   width: 90%;
   position: absolute;
   top: 100px;
   left: 10px;
 }
 
-.feature-img2{
+.feature-img2 {
   width: 100%;
   top: 80px;
   left: 0px;
 }
 
-.feature-img4{
+.feature-img4 {
   width: 60%;
   left: 40px;
 }
 
 /* ここからプログラミングを学ぶ理由部分 */
-.reason-wrapper{
+.reason-wrapper {
   width: 100%;
   background-color: rgb(76, 166, 222);
   margin-top: 10px;
@@ -366,12 +376,12 @@ header{
   text-align: center;
 }
 
-.pc-foot-container{
+.pc-foot-container {
   width: 40%;
   margin: 10px auto;
 }
 
-.pc-foot-on{
+.pc-foot-on {
   width: 200px;
   height: 20px;
   background-color: white;
@@ -379,7 +389,7 @@ header{
   box-shadow: 2px 2px 2px 0px rgb(58, 58, 58);
   margin: 0 auto;
 }
-.pc-foot-under{
+.pc-foot-under {
   width: 400px;
   height: 20px;
   background-color: white;
@@ -389,24 +399,24 @@ header{
   margin-bottom: 30px;
 }
 
-.reason-name{
+.reason-name {
   width: 50%;
   border-color: white;
   color: white;
 }
 
-.reason-call{
+.reason-call {
   color: white;
 }
 
-.reason-contents{
+.reason-contents {
   width: 100%;
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
 }
 
-.reason-content-frame{
+.reason-content-frame {
   width: 180px;
   height: 180px;
   background-image: url(reason-img2.png);
@@ -415,20 +425,20 @@ header{
   color: white;
   position: relative;
 }
-.reason-img1{
+.reason-img1 {
   background-image: url(reason-img1.png);
 }
-.reason-img3{
+.reason-img3 {
   background-image: url(reason-img3.jpg);
 }
-.reason-img4{
+.reason-img4 {
   background-image: url(reason-img4.jpg);
 }
-.reason-img5{
+.reason-img5 {
   background-image: url(reason-img5.jpg);
 }
 
-.reason-content-box{
+.reason-content-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -437,29 +447,29 @@ header{
   background-color: rgba(58, 58, 58, 0.7);
 }
 
-.reason-content-title{
+.reason-content-title {
   font-size: 16px;
   margin-top: 40px;
   margin-bottom: 30px;
 }
 
-.reason-content-link{
+.reason-content-link {
   font-size: 14px;
 }
 
 /* ここからプラン紹介 */
-.plan-wrapper{
+.plan-wrapper {
   width: 100%;
   color: rgb(58, 58, 58);
   text-align: center;
   padding-top: 30px;
 }
 
-.plan-name{
+.plan-name {
   width: 55%;
 }
 
-.plan-contents-wrapper{
+.plan-contents-wrapper {
   width: 100%;
   height: auto;
   background-color: rgb(76, 166, 222);
@@ -468,12 +478,12 @@ header{
   position: relative;
 }
 
-.plan-back-img{
+.plan-back-img {
   width: 100%;
   height: auto;
 }
 
-.plan-contents-container{
+.plan-contents-container {
   position: absolute;
   top: 50px;
   left: 50px;
@@ -484,42 +494,115 @@ header{
   justify-content: space-around;
 }
 
-.plan-content{
+.plan-content {
   width: 100%;
   height: 140px;
   display: flex;
 }
 
-.plan-content-left{
+.plan-content-left {
   width: 30%;
-
 }
 
-.plan-content-right{
+.plan-content-right {
   width: 70%;
   padding-right: 30px;
   text-align: left;
 }
 
-.plan-name{
+.plan-name {
   margin: 30px auto;
   color: rgb(68, 147, 196);
   font-size: 2.5vw;
   font-weight: bold;
 }
 
-.plan-description{
+.plan-description {
   font-size: 2vw;
   margin: 30px auto 10px auto;
 }
 
-.plan-link{
+.plan-link {
   color: rgb(76, 166, 222);
   font-size: 1.8vw;
 }
 
+/* ここからよくある質問 */
+.q-wrapper {
+  width: 100%;
+  height: auto;
+  color: rgb(58, 58, 58);
+  text-align: center;
+  padding-top: 30px;
+}
 
+.q-name {
+  width: 25%;
+}
 
-.sample{
+.q-container {
+  width: 100%;
+  height: auto;
+  margin: 30px auto;
+}
+
+.q-content {
+  width: 85%;
+  height: 190px;
+  display: flex;
+  margin: 10px auto;
+}
+
+.q-content-left {
+  width: 20%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.q-content-right {
+  width: 75%;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.q-img-wrapper {
+  width: 110px;
+  height: 110px;
+  background-color: rgba(225, 225, 225, 0.5);
+  border-radius: 50px;
+  margin: 10px auto;
+  padding-top: 10px;
+}
+
+.q-img-wrapper > img {
+  display: block;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.q-content-customer {
+  font-size: 15px;
+}
+
+.q-content-title {
+  font-size: 20px;
+  color: rgb(76, 166, 222);
+}
+.q-content-description{
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.q-content-link{
+  display: block;
+  color: rgb(68, 147, 196);
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.sample {
   background-color: violet;
 }
