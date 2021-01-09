@@ -19,6 +19,15 @@ a{
   color: white;
 }
 
+.emphasis-color-blue{
+  color: rgb(68, 147, 196);
+  font-size: 3vw;
+}
+
+.emphasis-color-yellow{
+  color: rgb(231, 202, 94);
+}
+
 .br-point-1{
   line-height: 1em;
 }
@@ -50,6 +59,23 @@ a{
   border-radius: 5px;
 }
 
+.btn2{
+  display: block;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 25px;
+  box-shadow: 3px 3px 3px 0px rgba(58, 58, 58, 0.5);
+  background-color: rgb(231, 202, 94);
+  color: rgb(58, 58, 58);
+  font-weight: bold;
+  margin: 10px auto;
+}
+
+
+
 /* ここからヘッダー */
 .header .wrapper{
   margin: 0 auto;
@@ -66,6 +92,7 @@ header{
   display: flex;
   position: fixed;
   top: 0;
+  z-index: 10;
 }
 .app-name{
   flex-grow: 1;
@@ -206,6 +233,123 @@ header{
   margin-top: 30px;
   font-size: 1.2vw;
 }
+
+/* ここから特長部分 */
+.feature-wrapper{
+  width: 100%;
+  text-align: center;
+}
+
+.feature-container{
+  margin: 0 auto;
+}
+
+.feature-name{
+  margin: 0 auto;
+  font-size: 2.5vw;
+  color: rgb(112, 112, 112);
+  width: 45%;
+  border-top: 8px solid rgb(112, 112, 112);
+  border-bottom: 8px solid rgb(112, 112, 112);
+  padding: 10px 0;
+}
+
+.feature-call{
+  margin-top: 10px;
+  color: rgb(112, 112, 112);
+  font-size: 1.5vw;
+}
+
+.pc-container{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+
+.pc-frame1{
+  width: 100%;
+  height: 620px;
+  border: 10px solid rgb(76, 166, 222);
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px 0px rgb(58, 58, 58);
+  padding: 10px;
+}
+
+.pc-frame2{
+  width: 100%;
+  height: 580px;
+  border: 2px solid rgb(76, 166, 222);
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.feature-frame{
+  width: calc((100% - 10px)/2);
+  height: calc((100% - 8px)/2);
+  border: 5px solid rgb(76, 166, 222);
+  display: flex;
+}
+.feature-left-frame{
+  width: 45%;
+  position: relative;
+}
+.feature-right-frame{
+  width: 60%;
+  background-color: rgb(76, 166, 222);
+  position: relative;
+}
+.feature-reason{
+  margin-top: 30px;
+  color: rgb(68, 147, 196);
+}
+.feature-number{
+  color: rgb(68, 147, 196);
+  font-size: 3vw;
+}
+.feature-title{
+  margin-top: 30px;
+  color: white;
+}
+
+.btn3{
+  display: block;
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 35px;
+  border: 2px solid white;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px 0px rgba(58, 58, 58, 0.5);
+  background-color: rgb(76, 166, 222);
+  font-weight: bold;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 20px;
+  left: calc((100% - 150px)/2);
+}
+
+.feature-img{
+  width: 90%;
+  position: absolute;
+  top: 100px;
+  left: 10px;
+}
+
+.feature-img2{
+  width: 100%;
+  top: 80px;
+  left: 0px;
+}
+
+.feature-img4{
+  width: 60%;
+  left: 40px;
+}
+
 
 .sample{
   background-color: violet;
