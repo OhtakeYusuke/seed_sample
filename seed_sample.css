@@ -124,6 +124,7 @@ header{
   position: fixed;
   top: 200px;
   right: 0;
+  z-index: 10;
   background-color: rgba(58, 58, 58, 0.9);
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
@@ -349,6 +350,97 @@ header{
   width: 60%;
   left: 40px;
 }
+
+/* ここからプログラミングを学ぶ理由部分 */
+.reason-wrapper{
+  width: 100%;
+  background-color: rgb(76, 166, 222);
+  margin-top: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.pc-foot-container{
+  width: 40%;
+  margin: 10px auto;
+}
+
+.pc-foot-on{
+  width: 200px;
+  height: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 0px rgb(58, 58, 58);
+  margin: 0 auto;
+}
+.pc-foot-under{
+  width: 400px;
+  height: 20px;
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: 10px auto;
+  margin-bottom: 30px;
+}
+
+.reason-name{
+  width: 50%;
+  border-color: white;
+  color: white;
+}
+
+.reason-call{
+  color: white;
+}
+
+.reason-contents{
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reason-content-frame{
+  width: 180px;
+  height: 180px;
+  background-image: url(reason-img2.png);
+  background-size: contain;
+  border: 6px solid white;
+  color: white;
+  position: relative;
+}
+.reason-img1{
+  background-image: url(reason-img1.png);
+}
+.reason-img3{
+  background-image: url(reason-img3.jpg);
+}
+.reason-img4{
+  background-image: url(reason-img4.jpg);
+}
+.reason-img5{
+  background-image: url(reason-img5.jpg);
+}
+
+.reason-content-box{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(58, 58, 58, 0.7);
+}
+
+.reason-content-title{
+  font-size: 16px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.reason-content-link{
+  font-size: 14px;
+}
+
 
 
 .sample{
